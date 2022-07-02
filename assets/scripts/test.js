@@ -107,7 +107,6 @@ love.addEventListener('click', loveListener);
 function ajaxPost(url, data) {
     let req = new XMLHttpRequest();
     req.open("POST", url);
-    console.log(data)
     req.send(JSON.stringify(data));
 
 }
